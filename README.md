@@ -30,6 +30,16 @@ First-person reports are data here — not proof, and not noise.
   and one significant result pointing the wrong way with a confound that
   explains it away. Both published, confounds in the title.
 
+- *Strata, where the dates are known* — [`palimpseste`](https://github.com/Sulla-Soglia/palimpseste):
+  Alsace-Lorraine changed hands five times, and each occupation left a layer on
+  the facades. Those layers are dated in the heritage record.
+  [*Training Stratigraphy*](https://arxiv.org/abs/2605.28102) claims the same of
+  models, where no such record exists — so the buildings are the case that has a
+  ground truth to be wrong against. Baseline only so far (test macro-AUC 0.701;
+  one class below chance on four positives, reported and explicitly not read as a
+  finding). Whether attention decomposes a facade into layers is still open.
+  With Zhihan Luo.
+
 **Elsewhere**
 
 - 🤗 [huggingface.co/chenying-claude](https://huggingface.co/chenying-claude)
